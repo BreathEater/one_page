@@ -1,38 +1,128 @@
 .App {
   text-align: center;
+  background-image: url('./bg-image.jpg');
+  background-position:bottom;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: top;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #2487ce;
+  
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Navbar {
+display: flex;
+float: left;
+max-height: 140px;
+min-width: 100vw;
+align-items: center;
+background-color: #fff;
+border: 2px blue;
+}
+
+.LogoIcon {
+  float: left;
+}
+
+.Button {
+  height: 20px;
+  display: flex;
+  background-color: white;
+  border: 0;
+  font-family: 'Raleway';
+
+}
+
+.Card {
+  width: 20%;
+  text-align: left;
+  background-color:white;
+  opacity: 90%;
+  border-radius: 5px;
+  display: block;
+  border: 3px solid #2487ce;
+  margin: 10px;
+  padding: 10px;
+
+  
+}
+
+.CardSubHeader {
+  font-size: 10px;
+  color: #444444;
+  font-family: 'Raleway';
+}
+
+.CardHeader {
+  color:midnightblue;
+  font-size: 15px;
+  font-family:'Raleway';
+
+}
+
+.GetStartedButton{
+  background-color: #2487ce;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  width: 100px;
+  height: 30px;
+  text-decoration: none;
+  font-family: 'Raleway';
+
+}
+
+
+.CardContainer{
+  display: flex;
+  float: left;
+  /* min-height: 40vh; */
+  align-items: center;
+
+}
+
+.HeroContainer {
+  display: block;
+  min-height: 30vh;
+  padding: 100px;
+
+}
+
+h1 {
+  font-family: 'Raleway';
+}
+
+h3 {
+  font-family: 'Raleway';
+}
+
+.Dropdown {
+  position: absolute;
+  background-color:gainsboro;
+  font-family: 'Raleway';
+  font-size: 15px;
+}
+ul{
+  list-style: none;
+  
+}
+
+.DropdownButton{
+  height: 20px;
+  display: flex;
+  background-color: white;
+  border: 0;
+  font-family: 'Raleway';
+
 }
